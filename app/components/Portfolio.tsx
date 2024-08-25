@@ -1,6 +1,6 @@
-import React from 'react'
-import { Menu } from 'lucide-react'
-import { Button } from "../components/ui/button"
+import React from 'react';
+import { Menu } from 'lucide-react';
+import { Button } from "../components/ui/button";
 
 export default function Component() {
   return (
@@ -30,7 +30,7 @@ export default function Component() {
           <div className="col-span-12 md:col-span-5 lg:col-span-7 grid grid-cols-6 gap-4 mt-8 md:mt-0">
             <div className="col-span-4 row-span-2 bg-[#e0dcd3] rounded-lg overflow-hidden">
               <img 
-                src="/placeholder.svg?height=400&width=600" 
+                src="/images/featured-work.png"  // replace with your image file path
                 alt="Featured Work"
                 className="w-full h-full object-cover"
               />
@@ -39,27 +39,12 @@ export default function Component() {
             <div className="col-span-2 bg-[#2a2a2a] rounded-lg"></div>
             <div className="col-span-3 bg-[#e0dcd3] rounded-lg overflow-hidden">
               <img 
-                src="/placeholder.svg?height=200&width=300" 
+                src="/images/work-sample.png"  // replace with your image file path
                 alt="Work Sample"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="col-span-3 bg-[#6b6b6b] rounded-lg"></div>
-          </div>
-        </div>
-
-        <div className="mt-16 grid grid-cols-12 gap-4">
-          <div className="col-span-12 md:col-span-4 bg-[#e0dcd3] p-6 rounded-lg">
-            <h2 className="text-2xl font-bold mb-2">01 / CONCEPT</h2>
-            <p className="text-[#6b6b6b]">Bridging the gap between digital and physical realms through innovative design concepts.</p>
-          </div>
-          <div className="col-span-12 md:col-span-4 bg-[#2a2a2a] text-white p-6 rounded-lg">
-            <h2 className="text-2xl font-bold mb-2">02 / CREATION</h2>
-            <p className="text-[#e0dcd3]">Transforming ideas into captivating visual experiences using cutting-edge digital tools.</p>
-          </div>
-          <div className="col-span-12 md:col-span-4 bg-[#d64545] text-white p-6 rounded-lg">
-            <h2 className="text-2xl font-bold mb-2">03 / DELIVERY</h2>
-            <p className="text-[#f4f1ec]">Ensuring seamless implementation and presentation of designs across various platforms.</p>
           </div>
         </div>
 
@@ -74,14 +59,14 @@ export default function Component() {
           <div className="col-span-12 md:col-span-6 lg:col-span-8 grid grid-cols-2 gap-4">
             <div className="aspect-square bg-[#e0dcd3] rounded-lg overflow-hidden">
               <img 
-                src="/placeholder.svg?height=300&width=300" 
+                src="/images/project-1.png"  // replace with your image file path
                 alt="Project 1"
                 className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
               />
             </div>
             <div className="aspect-square bg-[#e0dcd3] rounded-lg overflow-hidden">
               <img 
-                src="/placeholder.svg?height=300&width=300" 
+                src="/images/project-2.png"  // replace with your image file path
                 alt="Project 2"
                 className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
               />
@@ -94,5 +79,5 @@ export default function Component() {
         <p>&copy; 2023 Zephyr Nexus. All rights reserved.</p>
       </footer>
     </div>
-  )
+  );
 }
